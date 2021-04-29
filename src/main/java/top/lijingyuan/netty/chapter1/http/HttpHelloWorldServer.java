@@ -21,7 +21,7 @@ import io.netty.handler.logging.LoggingHandler;
  */
 public class HttpHelloWorldServer {
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         EventLoopGroup boosGroup = new NioEventLoopGroup(1);
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         try {
